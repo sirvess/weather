@@ -4,15 +4,17 @@
 
 import * as $0 from "./routes/api/location/[cityName].ts";
 import * as $1 from "./routes/index.tsx";
-import * as $$0 from "./islands/CitySearchBar.tsx";
+import * as $2 from "./routes/weather.tsx";
+import * as $$0 from "./islands/CitySearch.tsx";
 
 const manifest = {
   routes: {
     "./routes/api/location/[cityName].ts": $0,
     "./routes/index.tsx": $1,
+    "./routes/weather.tsx": $2,
   },
   islands: {
-    "./islands/CitySearchBar.tsx": $$0,
+    "./islands/CitySearch.tsx": $$0,
   },
   baseUrl: import.meta.url,
 };
